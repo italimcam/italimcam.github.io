@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LOUD - Follow The Noise</title>
+        <link rel="stylesheet" href="landingpage.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+        <script type="text/javascript">
+            window.onload = function() {
+                document.querySelector(".menu_mobile").addEventListener("click", function() {
+                    if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                        document.querySelector(".menu nav ul").style.display = 'none';
+                    } else {
+                        document.querySelector(".menu nav ul").style.display = 'flex';
+                    }
+                });
+            };
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class="topo">
+                    <div class="logo"><img src="https://logodownload.org/wp-content/uploads/2020/07/loud-logo.png" class="logo"></div>
+                    <div class="menu">
+                        <nav>
+                            <nav>
+                                <div class="menu_mobile">
+                                    <div class="mm_line"></div>
+                                    <div class="mm_line"></div>
+                                    <div class="mm_line"></div>
+                                </div>
+                            <ul>
+                                <li><a class="active" href="#inicio">INÍCIO</a></li>
+                                <li><a href="#time">TIME</a></li>
+                                <li><a href="#loja">LOJA</a></li>
+                                <div class="botoes">
+                                    <a href="../Exercício - Formulário de Cadastro/formulario.html"><button id="criar">CRIAR CONTA</button></a>
+                                    <a href="../Exercício - Formulário de Cadastro/login.html"><button id="login">FAZER LOGIN</button></a>
+                            </div>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+        </header>
+        <section>
+            <div class="banner">
+                <div class="banner_area">
+                    <div class="banner_text">
+                        <h1>GARANTA AGORA O COLAR OFICIAL DA LOUD</h1>
+                        <h2>VAI MUITO ALÉM DE UM ACESSÓRIO, ESTE É UM SÍMBOLO DESSA HISTÓRIA MARAVILHOSA QUE ESTAMOS CONSTRUINDO JUNTOS TODOS OS DIAS.</h2>
+                    </div>
+                    <a href="../Exercício - Formulário de Cadastro/login.html"><button id="compra">CLIQUE PARA ACESSAR</button></a>
+                </div>
+            </div>
+        </section>
+        <section>
+        <div class="compra">
+            <div class="compra_topo">
+                    <h1>COMPRE AGORA</h1>
+            </div>
+            <div class="area_compra">
+                <div class="aspas">
+                    <div class="textocompra">
+                        <h3>USE LOUD COLLECTION</h3>
+                        <h1>(PRÉ-VENDA) COLAR OFICIAL LOUD</h1>
+                        <h2>R$ 150,00</h2>
+                    </div>
+                    <a href="../Exercício - Formulário de Cadastro/login.html"><button id="compracard">ADICIONAR AO CARRINHO</button></a>
+                </div>
+                <div class="tay">
+                    <div class="textocompra">
+                        <h3>USE LOUD COLLECTION</h3>
+                        <h1>(PRÉ-VENDA) COLAR OFICIAL LOUD</h1>
+                        <h2>R$ 150,00</h2>
+                    </div>
+                    <a href="../Exercício - Formulário de Cadastro/login.html"><button id="compracard">ADICIONAR AO CARRINHO</button></a>
+                </div>
+            </div>
+        </div>
+        </section>
+        <footer>
+            <div class="footer_top">
+                <div class="logo"><img src="https://logodownload.org/wp-content/uploads/2020/07/loud-logo.png" class="logo"></div>
+                <div class="footer_cop">
+                Copyright© 2023, Ítalo Cassimiro - Todos os Direitos Reservados
+            </div>
+        </div>     
+        </footer>
+    </body>
+</html>
